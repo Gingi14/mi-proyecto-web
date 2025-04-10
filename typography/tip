@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'MiFuentePersonalizada';
+	src: url('fonts/mifuente.woff2') format('woff2'), url('fonts/mifuente.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
