@@ -1,108 +1,113 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Error 404 - Candado</title>
-  <style>body {
-    margin: 0;
-    background: radial-gradient(circle at center, #ff533d, #990000);
-    font-family: 'Segoe UI', sans-serif;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    flex-direction: column;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  .padlock {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .shackle {
-    width: 140px;
-    height: 120px;
-    border: 10px solid #ccc;
-    border-bottom: none;
-    border-radius: 70px 70px 0 0;
-    margin-bottom: -20px;
-    z-index: 1;
-  }
-  
-  .body {
-    display: flex;
-    gap: 4px;
-    padding: 10px;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-    position: relative;
-    z-index: 2;
-  }
-  
-  .ring {
-    width: 28px;
-    height: 45px;
-    background: #e60023;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: spin 4s linear infinite;
-  }
-  
-  .ring::before {
-    content: var(--text);
-  }
-  
-  @keyframes spin {
-    0% { transform: rotateX(0deg); }
-    100% { transform: rotateX(360deg); }
-  }
-  
-  h1 {
-    font-size: 60px;
-    margin: 20px 0 5px;
-  }
-  
-  .success {
-    color: #ffd700;
-    font-weight: bold;
-  }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="padlock">
-      <div class="shackle"></div>
-      <div class="body">
-        <div class="ring" style="--text:'L'; animation-delay: 0s;"></div>
-        <div class="ring" style="--text:'O'; animation-delay: 0.2s;"></div>
-        <div class="ring" style="--text:'V'; animation-delay: 0.4s;"></div>
-        <div class="ring" style="--text:'E'; animation-delay: 0.6s;"></div>
-        <div class="ring" style="--text:'L'; animation-delay: 0.8s;"></div>
-        <div class="ring" style="--text:'E'; animation-delay: 1s;"></div>
-        <div class="ring" style="--text:'N'; animation-delay: 1.2s;"></div>
-        <div class="ring" style="--text:'G'; animation-delay: 1.4s;"></div>
-        <div class="ring" style="--text:'U'; animation-delay: 1.6s;"></div>
-        <div class="ring" style="--text:'A'; animation-delay: 1.8s;"></div>
-        <div class="ring" style="--text:'G'; animation-delay: 2s;"></div>
-        <div class="ring" style="--text:'E'; animation-delay: 2.2s;"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error 404 - Candado</title>
+    <style>
+      body {
+        margin: 0;
+        background: radial-gradient(circle at center, #ff533d, #990000);
+        font-family: "Segoe UI", sans-serif;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .padlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .shackle {
+        width: 140px;
+        height: 120px;
+        border: 10px solid #ccc;
+        border-bottom: none;
+        border-radius: 70px 70px 0 0;
+        margin-bottom: -20px;
+        z-index: 1;
+      }
+
+      .body {
+        display: flex;
+        gap: 4px;
+        padding: 10px;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        position: relative;
+        z-index: 2;
+      }
+
+      .ring {
+        width: 28px;
+        height: 45px;
+        background: #e60023;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: spin 4s linear infinite;
+      }
+
+      .ring::before {
+        content: var(--text);
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotateX(0deg);
+        }
+        100% {
+          transform: rotateX(360deg);
+        }
+      }
+
+      h1 {
+        font-size: 60px;
+        margin: 20px 0 5px;
+      }
+
+      .success {
+        color: #ffd700;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="padlock">
+        <div class="shackle"></div>
+        <div class="body">
+          <div class="ring" style="--text: 'L'; animation-delay: 0s"></div>
+          <div class="ring" style="--text: 'O'; animation-delay: 0.2s"></div>
+          <div class="ring" style="--text: 'V'; animation-delay: 0.4s"></div>
+          <div class="ring" style="--text: 'E'; animation-delay: 0.6s"></div>
+          <div class="ring" style="--text: 'L'; animation-delay: 0.8s"></div>
+          <div class="ring" style="--text: 'E'; animation-delay: 1s"></div>
+          <div class="ring" style="--text: 'N'; animation-delay: 1.2s"></div>
+          <div class="ring" style="--text: 'G'; animation-delay: 1.4s"></div>
+          <div class="ring" style="--text: 'U'; animation-delay: 1.6s"></div>
+          <div class="ring" style="--text: 'A'; animation-delay: 1.8s"></div>
+          <div class="ring" style="--text: 'G'; animation-delay: 2s"></div>
+          <div class="ring" style="--text: 'E'; animation-delay: 2.2s"></div>
+        </div>
       </div>
+      <h1>404</h1>
+      <p>Combinación no encontrada</p>
+      <p class="success">Vuelve a la página de inicio</p>
     </div>
-    <h1>404</h1>
-    <p>Combinación no encontrada</p>
-    <p class="success">Vuelve a la página de inicio </p>
-  </div>
-</body>
+  </body>
 </html>
