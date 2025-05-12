@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Música Moderna</title>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        margin: 0;
+        background-color: #fff;
+        color: #111;
+      }
+
+      header {
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 30px auto;
+        padding: 0 20px;
+      }
+
+      .main-article {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+
+      .main-article img {
+        flex: 1 1 50%;
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .main-article .text {
+        flex: 1 1 45%;
+      }
+
+      .tag {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 0.75em;
+        color: #999;
+      }
+
+      .main-article h2 {
+        margin-top: 10px;
+        font-size: 1.8em;
+      }
+
+      .main-article p {
+        margin-top: 10px;
+        line-height: 1.4;
+      }
+
+      .author {
+        font-size: 0.85em;
+        color: #555;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 30px;
+      }
+
+      .card {
+        border-top: 2px solid #000;
+        padding-top: 10px;
+      }
+
+      .card h3 {
+        margin: 10px 0;
+        font-size: 1.2em;
+      }
+
+      .card .author {
+        font-size: 0.8em;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Música Moderna</h1>
+    </header>
+
+    <main class="container">
+      <article class="main-article">
+        <img src="ela-taubert.jpg" alt="Ela Taubert" />
+        <div class="text">
+          <span class="tag">News</span>
+          <h2>
+            Rising Latin Superstar Ela Taubert On How Lifelong Questions Fueled
+            Her Debut Album
+          </h2>
+          <p>
+            The Colombian singer-songwriter releases ‘PREGUNTAS A LAS 11:11’
+            today.
+          </p>
+          <p class="author">by Marysabel Huston / May 9, 2025</p>
+        </div>
+      </article>
+
+      <section class="grid">
+        <article class="card">
+          <span class="tag">News</span>
+          <h3>Read All The Lyrics To Kali Uchis’ New Album ‘Sincerely’</h3>
+          <p class="author">by Ken Partridge / May 9, 2025</p>
+        </article>
+
+        <article class="card">
+          <span class="tag">News</span>
+          <h3>
+            Hear Songs By Kali Uchis, Tyla & More In Our New Music Friday
+            Playlist
+          </h3>
+          <p class="author">by Genius / May 9, 2025</p>
+        </article>
+
+        <article class="card">
+          <span class="tag">News</span>
+          <h3>
+            Miley Cyrus Clings To A Dying Relationship On New Song “More To
+            Lose”
+          </h3>
+          <p class="author">by Ken Partridge / May 9, 2025</p>
+        </article>
+
+        <article class="card">
+          <span class="tag">News</span>
+          <h3>
+            Read All The Lyrics To Sleep Token’s New Album ‘Even In Arcadia’
+          </h3>
+          <p class="author">by Ken Partridge / May 9, 2025</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
