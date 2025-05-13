@@ -15,16 +15,16 @@
     <header>
       <h1>LOVE LANGUAGE</h1>
       <nav>
-        <a href="#">ESTILOS</a>
-        <a href="#">SOBRE</a>
-        <a href="#">17 RANDOM THINGS</a>
-        <a href="#">OH! DE ESO HABLAMOS</a>
+        <a href="index.html">ESTILOS</a>
+        <a href="17RANDOMTHINGS.html">17 RANDOM THINGS</a>
+        <a href="OH!DEESOHABLAMOS.html">OH! DE ESO HABLAMOS</a>
       </nav>
     </header>
+  </body>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Música Moderna</title>
+    <title>Música Pop</title>
     <style>
       body {
         font-family: "Inter", sans-serif;
@@ -110,6 +110,64 @@
       .card .author {
         font-size: 0.8em;
       }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+      }
+
+      .card {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .tag {
+        display: inline-block;
+        background-color: crimson;
+        color: white;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+      }
+
+      .articulo {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        background: #fdfdfd;
+        border-left: 4px solid #e91e63;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      .articulo h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      .articulo p {
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #444;
+      }
     </style>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -119,58 +177,72 @@
   </head>
   <body>
     <header>
-      <h1>Música Moderna</h1>
+      <h1>Música Poop</h1>
     </header>
 
     <main class="container">
       <article class="main-article">
-        <img src="ela-taubert.jpg" alt="Ela Taubert" />
+        <img
+          src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.29.00.png?updatedAt=1747164681285"
+          alt="abracadabra"
+        />
         <div class="text">
-          <span class="tag">News</span>
-          <h2>
-            Rising Latin Superstar Ela Taubert On How Lifelong Questions Fueled
-            Her Debut Album
-          </h2>
+          <span class="tag">Novedad</span>
+          <h2>"Abracadabra" de Lady Gaga</h2>
           <p>
-            The Colombian singer-songwriter releases ‘PREGUNTAS A LAS 11:11’
-            today.
+            Segundo sencillo del álbum Mayhem, esta canción electropop con
+            toques de dark pop ha sido aclamada por su energía y producción.
+            Alcanzó el top 10 en múltiples países y fue presentada en la
+            ceremonia de los Grammy
           </p>
-          <p class="author">by Marysabel Huston / May 9, 2025</p>
         </div>
       </article>
 
       <section class="grid">
         <article class="card">
-          <span class="tag">News</span>
-          <h3>Read All The Lyrics To Kali Uchis’ New Album ‘Sincerely’</h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Garden of Eden" Lady Gaga</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.29.21.png?updatedAt=1747164680882"
+            alt="Garden of Eden"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Hear Songs By Kali Uchis, Tyla & More In Our New Music Friday
-            Playlist
-          </h3>
-          <p class="author">by Genius / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Esa Diva" Melody</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.30.49.png?updatedAt=1747164680739"
+            alt="Esa Diva"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Miley Cyrus Clings To A Dying Relationship On New Song “More To
-            Lose”
-          </h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Me gusta" Tini Stoessel y Miranda!</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.29.37.png?updatedAt=1747164680904"
+            alt="Me gusta"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Read All The Lyrics To Sleep Token’s New Album ‘Even In Arcadia’
-          </h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>“July” Noah Cyrus</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.30.34.png?updatedAt=1747164681004"
+            alt="july"
+          />
         </article>
+      </section>
+      <section class="articulo">
+        <h2>¿Qué es la música pop?</h2>
+        <p>
+          El Pop Global abarca la música pop que trasciende fronteras,
+          incorporando influencias de diversas culturas y estilos. Se
+          caracteriza por su accesibilidad, melodías pegajosas y producción
+          pulida.
+        </p>
       </section>
     </main>
   </body>

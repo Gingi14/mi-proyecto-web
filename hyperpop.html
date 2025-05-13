@@ -15,16 +15,16 @@
     <header>
       <h1>LOVE LANGUAGE</h1>
       <nav>
-        <a href="#">ESTILOS</a>
-        <a href="#">SOBRE</a>
-        <a href="#">17 RANDOM THINGS</a>
-        <a href="#">OH! DE ESO HABLAMOS</a>
+        <a href="index.html">ESTILOS</a>
+        <a href="17RANDOMTHINGS.html">17 RANDOM THINGS</a>
+        <a href="OH!DEESOHABLAMOS.html">OH! DE ESO HABLAMOS</a>
       </nav>
     </header>
+  </body>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Música Moderna</title>
+    <title>Música Hyperpop</title>
     <style>
       body {
         font-family: "Inter", sans-serif;
@@ -110,6 +110,64 @@
       .card .author {
         font-size: 0.8em;
       }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+      }
+
+      .card {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .tag {
+        display: inline-block;
+        background-color: crimson;
+        color: white;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+      }
+
+      .articulo {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        background: #fdfdfd;
+        border-left: 4px solid #e91e63;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      .articulo h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      .articulo p {
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #444;
+      }
     </style>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -119,58 +177,75 @@
   </head>
   <body>
     <header>
-      <h1>Música Moderna</h1>
+      <h1>Música Trap</h1>
     </header>
 
     <main class="container">
       <article class="main-article">
-        <img src="ela-taubert.jpg" alt="Ela Taubert" />
+        <img
+          src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.38.10.png?updatedAt=1747165227009"
+          alt="Gnarly"
+        />
         <div class="text">
-          <span class="tag">News</span>
-          <h2>
-            Rising Latin Superstar Ela Taubert On How Lifelong Questions Fueled
-            Her Debut Album
-          </h2>
+          <span class="tag">Novedad</span>
+          <h2>"Gnarly" de Katseyes</h2>
           <p>
-            The Colombian singer-songwriter releases ‘PREGUNTAS A LAS 11:11’
-            today.
+            Este sencillo marca un giro audaz para el grupo global Katseye,
+            alejándose de su sonido anterior hacia un hyperpop experimental con
+            letras surrealistas y una estética visual caótica. La canción ha
+            generado opiniones polarizadas y se ha vuelto viral en plataformas
+            como TikTok.
           </p>
-          <p class="author">by Marysabel Huston / May 9, 2025</p>
         </div>
       </article>
 
       <section class="grid">
         <article class="card">
-          <span class="tag">News</span>
-          <h3>Read All The Lyrics To Kali Uchis’ New Album ‘Sincerely’</h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>JRJRJR" Jane Remover</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.38.49.png?updatedAt=1747165226598"
+            alt="JRJRJR"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Hear Songs By Kali Uchis, Tyla & More In Our New Music Friday
-            Playlist
-          </h3>
-          <p class="author">by Genius / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Take Me by the Hand" Oklou y Bladee</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.38.25.png?updatedAt=1747165226590"
+            alt="Take Me by the Hand"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Miley Cyrus Clings To A Dying Relationship On New Song “More To
-            Lose”
-          </h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Abyss" Chloe Moriondo</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.39.04.png?updatedAt=1747165226593"
+            alt="Abyss"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Read All The Lyrics To Sleep Token’s New Album ‘Even In Arcadia’
-          </h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Pssive" AilithX</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.39.20.png?updatedAt=1747165226579"
+            alt="Pssive"
+          />
         </article>
+      </section>
+      <section class="articulo">
+        <h2>¿Qué es la música hyperpop?</h2>
+        <p>
+          El hyperpop es un subgénero musical que surgió a finales de la década
+          de 2010, caracterizado por su producción maximalista, voces
+          distorsionadas, tempos acelerados y una fusión de estilos como el pop,
+          el trap, el EDM y el glitch. Este estilo desafía las convenciones del
+          pop tradicional, adoptando una estética digital, caótica y a menudo
+          irónica.
+        </p>
       </section>
     </main>
   </body>

@@ -15,17 +15,16 @@
     <header>
       <h1>LOVE LANGUAGE</h1>
       <nav>
-        <a href="#">ESTILOS</a>
-        <a href="#">SOBRE</a>
-        <a href="#">17 RANDOM THINGS</a>
-        <a href="#">OH! DE ESO HABLAMOS</a>
+        <a href="index.html">ESTILOS</a>
+        <a href="17RANDOMTHINGS.html">17 RANDOM THINGS</a>
+        <a href="OH!DEESOHABLAMOS.html">OH! DE ESO HABLAMOS</a>
       </nav>
     </header>
   </body>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Música Moderna</title>
+    <title>Música Urbana</title>
     <style>
       body {
         font-family: "Inter", sans-serif;
@@ -111,6 +110,64 @@
       .card .author {
         font-size: 0.8em;
       }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+      }
+
+      .card {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .tag {
+        display: inline-block;
+        background-color: crimson;
+        color: white;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+      }
+
+      .articulo {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        background: #fdfdfd;
+        border-left: 4px solid #e91e63;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      .articulo h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      .articulo p {
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #444;
+      }
     </style>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -145,35 +202,48 @@
       <section class="grid">
         <article class="card">
           <span class="tag">Novedad</span>
-          <h3>“Angeito” – Bad Gyal y Trueno</h3>
+          <h3>“Angeito” Bad Gyal y Trueno</h3>
           <img
-          src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2019.55.56.png?updatedAt=1747159054930"
-          alt="Angelito"
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2019.55.56.png?updatedAt=1747159054930"
+            alt="Angelito"
+          />
         </article>
 
         <article class="card">
           <span class="tag">Novedad</span>
-          <h3>“Veneno” – Naiara & Natos</h3>
+          <h3>“Veneno” Naiara y Natos</h3>
           <img
-          src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2019.52.32.png?updatedAt=1747158932749"
-          alt="Veneno"
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2019.52.32.png?updatedAt=1747158932749"
+            alt="Veneno"
+          />
         </article>
 
         <article class="card">
           <span class="tag">Novedad</span>
-          <h3>
-            Miley Cyrus Clings To A Dying Relationship On New Song “More To
-            Lose”
-          </h3>
+          <h3>“Ramen para dos” Maria Becerra y Paulo Londra</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2019.56.17.png?updatedAt=1747159054852"
+            alt="“Ramenparados"
+          />
         </article>
 
         <article class="card">
           <span class="tag">Novedad</span>
-          <h3>“Priti” – Danny Ocean & Sech</h3>
+          <h3>“Priti” Danny Ocean y Sech</h3>
           <img
-          src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2019.52.53.png?updatedAt=1747158933237"
-          alt="Veneno"
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2019.52.53.png?updatedAt=1747158933237"
+            alt="Veneno"
+          />
         </article>
+      </section>
+      <section class="articulo">
+        <h2>¿Qué es la música urbana?</h2>
+        <p>
+          El Afrobeat es un género musical originado en Nigeria en los años 60 y
+          70, que combina música tradicional africana con jazz, funk y highlife.
+          Se caracteriza por sus ritmos complejos, secciones de vientos
+          prominentes y letras con contenido político y social.
+        </p>
       </section>
     </main>
   </body>

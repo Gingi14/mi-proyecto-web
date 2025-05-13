@@ -1,9 +1,30 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Música Moderna</title>
+    <title>Love language</title>
+    <link rel="stylesheet" href="./css/styyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>LOVE LANGUAGE</h1>
+      <nav>
+        <a href="index.html">ESTILOS</a>
+        <a href="17RANDOMTHINGS.html">17 RANDOM THINGS</a>
+        <a href="OH!DEESOHABLAMOS.html">OH! DE ESO HABLAMOS</a>
+      </nav>
+    </header>
+  </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Música Trap</title>
     <style>
       body {
         font-family: "Inter", sans-serif;
@@ -89,6 +110,64 @@
       .card .author {
         font-size: 0.8em;
       }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        padding: 2rem;
+      }
+
+      .card {
+        background: #fff;
+        border: 1px solid #ddd;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease;
+      }
+
+      .card:hover {
+        transform: scale(1.02);
+      }
+
+      .card img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .tag {
+        display: inline-block;
+        background-color: crimson;
+        color: white;
+        padding: 0.2rem 0.5rem;
+        font-size: 0.8rem;
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+      }
+
+      .articulo {
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 1rem 2rem;
+        background: #fdfdfd;
+        border-left: 4px solid #e91e63;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      }
+
+      .articulo h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        color: #333;
+      }
+
+      .articulo p {
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #444;
+      }
     </style>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -98,58 +177,70 @@
   </head>
   <body>
     <header>
-      <h1>Música Moderna</h1>
+      <h1>Música Trap</h1>
     </header>
 
     <main class="container">
       <article class="main-article">
-        <img src="ela-taubert.jpg" alt="Ela Taubert" />
+        <img
+          src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.18.42.png?updatedAt=1747164071727"
+          alt="Orilla"
+        />
         <div class="text">
-          <span class="tag">News</span>
-          <h2>
-            Rising Latin Superstar Ela Taubert On How Lifelong Questions Fueled
-            Her Debut Album
-          </h2>
+          <span class="tag">Novedad</span>
+          <h2>"Jumpscare" de billy woods</h2>
           <p>
-            The Colombian singer-songwriter releases ‘PREGUNTAS A LAS 11:11’
-            today.
+            Canción introductoria de su álbum "GOLLIWOG", que combina elementos
+            de horror con comentarios sociopolíticos.
           </p>
-          <p class="author">by Marysabel Huston / May 9, 2025</p>
         </div>
       </article>
 
       <section class="grid">
         <article class="card">
-          <span class="tag">News</span>
-          <h3>Read All The Lyrics To Kali Uchis’ New Album ‘Sincerely’</h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Jonatan" Yung Lean</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.19.45.png?updatedAt=1747164071693"
+            alt="Jonatan"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Hear Songs By Kali Uchis, Tyla & More In Our New Music Friday
-            Playlist
-          </h3>
-          <p class="author">by Genius / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>“drill mp9” Emjay</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.20.44.png?updatedAt=1747164071709"
+            alt="drillmp9"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Miley Cyrus Clings To A Dying Relationship On New Song “More To
-            Lose”
-          </h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>"Two Times" Blondshell</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.20.02.png?updatedAt=1747164071717"
+            alt="Two Times"
+          />
         </article>
 
         <article class="card">
-          <span class="tag">News</span>
-          <h3>
-            Read All The Lyrics To Sleep Token’s New Album ‘Even In Arcadia’
-          </h3>
-          <p class="author">by Ken Partridge / May 9, 2025</p>
+          <span class="tag">Novedad</span>
+          <h3>“Eurovison” Central Cee</h3>
+          <img
+            src="https://ik.imagekit.io/mr8ipfeme/Screenshot%202025-05-13%20at%2021.21.33.png?updatedAt=1747164101633"
+            alt="Eurovision"
+          />
         </article>
+      </section>
+      <section class="articulo">
+        <h2>¿Qué es la música trap?</h2>
+        <p>
+          El trap drill es una fusión de trap y drill, dos subgéneros del
+          hip-hop. Se caracteriza por sus ritmos oscuros, letras crudas y una
+          producción minimalista, reflejando la realidad de las calles y la vida
+          urbana.
+        </p>
       </section>
     </main>
   </body>
